@@ -13,7 +13,6 @@ It takes a topic as input and returns a beginner-friendly explanation generated 
 
 ## 🧠 Tech Stack
 
-- **Node.js** (v18+)
 - **LangChain**
 - **Google Generative AI API**
 - **dotenv**
