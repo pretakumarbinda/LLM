@@ -1,3 +1,4 @@
+# A project demonstrating how to build a simple AI Web Agent that combines Google Gemini with SerpAPI (for real-time web search) using LangChain.
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.agents import initialize_agent, AgentType
 from langchain_community.utilities import SerpAPIWrapper
@@ -40,3 +41,4 @@ response = agent.run(query)
 
 # Output
 print("🛰️ Final Output:", response)
+
